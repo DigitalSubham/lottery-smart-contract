@@ -19,7 +19,7 @@ Finally, the contract resets the participants array, so that people can enter th
 That's the basic idea of this contract. It's a simple way to create a decentralized lottery on the Ethereum network, without relying on any third-party services or intermediaries.
 
 
-##what each function does:
+## what each function does:
 
 1. constructor(): Initializes the contract by setting the manager address to the address that deploys the contract.
 
