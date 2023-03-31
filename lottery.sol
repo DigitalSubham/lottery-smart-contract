@@ -4,7 +4,7 @@ pragma solidity 0.8.6;
 contract lottery {
     // declare variables
     address public manager; // manager address
-    address payable[] public participants; // dynamic array to store participant addresses
+    address payable[] private participants; // dynamic array to store participant addresses
 
     constructor() {
         // set the manager address to the address that deploys the contract
